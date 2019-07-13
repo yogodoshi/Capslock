@@ -1272,10 +1272,9 @@
                         "manipulators": [
                             {
                                 "from": {
-                                    "key_code": "e",
+                                    "key_code": "f",
                                     "modifiers": {
                                         "mandatory": [
-                                            "left_command",
                                             "right_command",
                                             "right_control",
                                             "right_shift",
@@ -1292,7 +1291,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "e",
+                                    "key_code": "s",
                                     "modifiers": {
                                         "mandatory": [
                                             "right_command",
@@ -1304,53 +1303,14 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open -a 'Safari'"
+                                        "shell_command": "open -a 'Slack'"
                                     }
                                 ],
                                 "type": "basic"
                             },
                             {
                                 "from": {
-                                    "key_code": "r",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "left_command",
-                                            "right_command",
-                                            "right_control",
-                                            "right_shift",
-                                            "right_option"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "shell_command": "open -a 'Preview'"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "from": {
-                                    "key_code": "r",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "right_command",
-                                            "right_control",
-                                            "right_shift",
-                                            "right_option"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "shell_command": "open -a 'iTerm'"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "from": {
-                                    "key_code": "t",
+                                    "key_code": "s",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_command",
@@ -1363,14 +1323,14 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open -a 'Typora'"
+                                        "shell_command": "open -a 'Spotify'"
                                     }
                                 ],
                                 "type": "basic"
                             },
                             {
                                 "from": {
-                                    "key_code": "t",
+                                    "key_code": "c",
                                     "modifiers": {
                                         "mandatory": [
                                             "right_command",
@@ -1389,7 +1349,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "y",
+                                    "key_code": "1",
                                     "modifiers": {
                                         "mandatory": [
                                             "right_command",
@@ -1401,34 +1361,14 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open -a 'Siri'"
+                                        "shell_command": "open -a '1password 7'"
                                     }
                                 ],
                                 "type": "basic"
                             },
                             {
                                 "from": {
-                                    "key_code": "f",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "left_command",
-                                            "right_command",
-                                            "right_control",
-                                            "right_shift",
-                                            "right_option"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "shell_command": "open -a 'Dash'"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "from": {
-                                    "key_code": "g",
+                                    "key_code": "a",
                                     "modifiers": {
                                         "mandatory": [
                                             "right_command",
@@ -1440,17 +1380,16 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open -a 'IntelliJ IDEA'"
+                                        "shell_command": "open -a 'Terminal'"
                                     }
                                 ],
                                 "type": "basic"
                             },
                             {
                                 "from": {
-                                    "key_code": "g",
+                                    "key_code": "c",
                                     "modifiers": {
                                         "mandatory": [
-                                            "left_command",
                                             "right_command",
                                             "right_control",
                                             "right_shift",
@@ -1461,6 +1400,26 @@
                                 "to": [
                                     {
                                         "shell_command": "open -a 'Google Chrome'"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                            },
+                            {
+                                "from": {
+                                    "key_code": "z",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "right_command",
+                                            "right_control",
+                                            "right_shift",
+                                            "right_option"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "open -a 'Amazon Music'"
                                     }
                                 ],
                                 "type": "basic"
